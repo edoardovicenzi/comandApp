@@ -1,0 +1,25 @@
+body{
+    font-family: "Protest Riot";
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-content: center;
+    background-color: #051622;
+    background-image: url("./assets/Tiles.svg");
+}
+h1 {
+    color:white;
+    margin:0;
+}
+iframe {
+    border-radius: 1rem;
+    border: none;
+    scale: 0.75;
+    background-color: #00332B;
+}
+#phishing-banner{
+    display:none;
+}
+.vsplitbar{
+    display:none
+}
