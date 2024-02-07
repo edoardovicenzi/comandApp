@@ -3,7 +3,7 @@ body::before {
   position: absolute;
   width: 200%;
   height: 250%;
-  top: -50%;
+  top: -75%;
   left: -50%;
   z-index: -1;
   background: url("./assets/Tiles.svg") 0 0 repeat;
