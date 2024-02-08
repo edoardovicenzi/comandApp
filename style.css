@@ -1,32 +1,45 @@
-body::before {
-  content: '';
-  position: absolute;
-  width: 200%;
-  height: 250%;
-  top: -75%;
-  left: -50%;
-  z-index: -1;
-  background: url("./assets/Tiles.svg") 0 0 repeat;
-  rotate: -45deg;
-}
 body {
-  font-family: "Protest Riot";
-  display: grid;
-  height: 100vh;
-  justify-items: center;
-  align-content: center;
-  background-color: #051622;
-  overflow: hidden;
+    background-color: #051622;
+}
+.main-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 250%;
+    height: 250%;
+    top: -75%;
+    left: -75%;
+    z-index: -1;
+    background: url("./assets/Tiles.svg") 0 0 repeat;
+    rotate: -45deg;
+}
+.main-wrapper {
+    position: relative;
+    font-family: "Protest Riot";
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-content: center;
+    overflow: hidden;
 }
 h1 {
     color:white;
     margin:0;
 }
+.container {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    height:640px;
+}
 iframe {
-    border-radius: 1rem;
-    border: none;
-    scale: 0.75;
-    background-color: #00332B;
+    position: absolute;
+    min-width: 360px;
+    height:100%;
+    border:0;
+    scale:0.8;
 }
 #phishing-banner{
     display:none;
